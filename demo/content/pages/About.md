@@ -45,7 +45,7 @@ Use brew install libyaml (on Mac OSX) to do so or see
 
 Add the following lines to .profile in your user-folder.
 	cparse() {
-		python /path/to/cParser.py "$1"
+	    python /path/to/cParser.py "$1"
 	}
 
 
@@ -75,7 +75,7 @@ The page.html and post.html will be included in index.html when they are needed.
 
 You can use the following shortcuts in every file placed in the template-folder.
 
-	{{posts}}					Include all posts.
+	{{ posts }}					Include all posts. (Use without the withespaces)
 
 	{{pages}}					Loop through all pages.
 		{{page.title}}			Include page.title.

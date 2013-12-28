@@ -13,7 +13,7 @@
 			
 		</nav>
 		<h1>About</h1>
-<span><i>Last modified:</i> Sat Dec 28 00:58:28 2013</span>
+<span><i>Last modified:</i> Sat Dec 28 01:08:16 2013</span>
 <h1>cparse v0.2</h1>
 <p>A python-based static-webpage-generator using markdown-syntax.</p>
 <h2>The MIT License (MIT)</h2>
@@ -71,12 +71,7 @@ The template folder contains all templates. index.html is the main-template, whi
 The page.html and post.html will be included in index.html when they are needed.</p>
 <h2>TEMPLATING</h2>
 <p>You can use the following shortcuts in every file placed in the template-folder.</p>
-<pre><code><article>
-	<h1>My first blogpost</h1>
-	<span><i>Last modified:</i> Sat Dec 28 00:36:21 2013</span>
-	<p><strong>Hello World!</strong></p>
-<p>This is my first blogpost written in <a href="http://markdown.de/syntax/">markdown</a>-syntax and published via cparse.</p>
-</article>                   Include all posts.
+<pre><code>{{ posts }}                 Include all posts. (Use without the withespaces)
 
 {{pages}}                   Loop through all pages.
     {{page.title}}          Include page.title.
