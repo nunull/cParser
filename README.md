@@ -49,7 +49,7 @@ Use brew install libyaml (on Mac OSX) to do so or see
 Add the following lines to .profile in your user-folder.
 ```
 cparse() {
-	python /path/to/cParser.py "$1"
+	python /path/to/cParser.py "$1" "$2"
 }
 ```
 
