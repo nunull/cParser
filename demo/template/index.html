@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>cParser demo</title>
+	</head>
+	<body>
+		<nav>
+			<a href="{{global.home}}">Home</a>
+			{{pages}}
+				<a href="{{page.url}}">{{page.title}}</a>
+			{{/pages}}
+		</nav>
+		{{content}}
+	</body>
+</html>
