@@ -78,7 +78,7 @@ The page.html and post.html will be included in index.html when they are needed.
  
 ## TEMPLATING
 
-You can use the following shortcuts in every file placed in the template-folder.
+You can use the following shortcuts in every file placed in the template-folder (or a subdirectory).
 
 	{{posts}}					Include all posts.
 
